@@ -14,6 +14,97 @@
   </section>
   <!-- HERO END -->
 
+  <!-- ABOUT START -->
+  <section id="about">
+    <div class="topbar">
+      <div class="tag">&lt;about&gt;</div>
+      <div class="sub">основное обо мне</div>
+    </div>
+
+    <div class="main-grid">
+      <div class="card-col">
+        <div class="card-wrap">
+          <div class="next-card"></div>
+          <div class="card" id="card">
+            <div class="stamp stamp-accept" id="stampAccept">Принято</div>
+            <div class="stamp stamp-decline" id="stampDecline">Мимо</div>
+            <div class="card-header">
+              <div class="kicker">AirDrop</div>
+              <div class="title">Поделиться контактом</div>
+            </div>
+            <div class="card-photo" id="cardPhoto">
+              <div class="role-tag">веб-дизайнер · DUBATOFF</div>
+            </div>
+            <div class="card-actions">
+              <button class="btn-decline" id="btnDecline">Отклонить</button>
+              <button class="btn-accept" id="btnAccept">Принять</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <div class="spec-heading">
+          <h2>Специализация</h2>
+          <svg viewBox="0 0 220 60"><ellipse cx="110" cy="30" rx="100" ry="20" fill="none" stroke="#7fa8d9" stroke-width="3"/></svg>
+        </div>
+
+        <div class="tags">
+          <button class="tag-btn active" data-tag="all">все</button>
+          <button class="tag-btn" data-tag="design">веб-дизайнер</button>
+          <button class="tag-btn" data-tag="logist">логист</button>
+          <button class="tag-btn" data-tag="dev">разработчик</button>
+        </div>
+
+        <div class="service-list">
+          <svg class="connectors" id="connectors"></svg>
+          <div class="service-item" data-tags="design dev">Создание сайтов любой сложности: лендинги, корпоративные сайты, интернет-магазины и веб-платформы.</div>
+          <div class="service-item" data-tags="design">Разработка фирменного стиля, брендбуков и авторских шрифтов.</div>
+          <div class="service-item" data-tags="design dev">Дизайн интерфейсов, мобильных приложений и Telegram-ботов.</div>
+          <div class="service-item" data-tags="design">Разработка баннеров, презентаций, гайдов, превью и карточек товаров.</div>
+          <div class="service-item" data-tags="dev">Базовая разработка и интеграция веб-проектов, SEO-оптимизация.</div>
+        </div>
+        <div class="empty-note" id="emptyNote">Пока нет проектов в этой категории</div>
+
+        <div class="bottom-row">
+          <a class="icon-btn" href="tel:+70000000000" title="Позвонить">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+          <a class="icon-btn" href="https://t.me/твой_ник" target="_blank" title="Telegram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </a>
+          <a class="icon-btn" href="mailto:почта@example.com" title="Почта">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
+          </a>
+
+          <div class="app-stack">
+            <div class="app-folder"></div>
+            <div class="app-icon figma">Fi</div>
+            <div class="app-icon ai">Ai</div>
+            <div class="app-icon ps">Ps</div>
+          </div>
+
+          <div id="hint">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+            тут нужно нажимать
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT END -->
+
+  <!-- MODAL PLACEHOLDER: пока пусто, наполним позже -->
+  <div id="modal-placeholder" class="hidden">
+    <div class="modal-box">
+      <button id="modalClose">✕</button>
+      <p>здесь будет содержимое — вернёмся к этому позже</p>
+    </div>
+  </div>
+
+  <div id="status">Отправлено с DUBATOFF</div>
+
   <script src="script.js"></script>
+  <script src="about.js"></script>
 </body>
 </html>
